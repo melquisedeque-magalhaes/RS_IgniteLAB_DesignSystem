@@ -36,3 +36,13 @@ export const Large: StoryObj<TextProps> = {
         size: 'lg'
     }
 }
+
+// Criando uma variação para um "custom component"
+export const CustomComponent: StoryObj<TextProps> = {
+    args: {
+        asChild: true,
+        children: (
+            <p>Testando</p>
+        )
+    }
+}
