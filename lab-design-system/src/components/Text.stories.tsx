@@ -53,5 +53,13 @@ export const CustomComponent: StoryObj<TextProps> = {
         children: (
             <p>Testando</p>
         )
+    },
+    // Desabilitando o children de aparecer no storyBook
+    argTypes: {
+        children: {
+            table: {
+                disable: true,
+            }
+        }
     }
 }
