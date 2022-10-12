@@ -14,7 +14,16 @@ export default {
         // Definindo o "texto" padrão do componente
         children: 'Lorem ipsum.',
         // Definindo o fontsize 
-        //size: 'lg'
+        size: 'md'
+    },
+    // argTypes possíbilita a alteração de tamanho dentro do storyBook
+    argTypes:{
+        size: {
+            options: ['sm', 'md', 'lg'],
+            control: {
+                type: 'inline-radio'
+            }
+        }
     }
 } as Meta <TextProps>
 
