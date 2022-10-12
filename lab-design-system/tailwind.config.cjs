@@ -5,6 +5,14 @@ module.exports = {
     './src/**/*.tsx',
   ],
   theme: {
+    fontSize: {
+      xs: 14,
+      sm: 16,
+      md: 18,
+      lg: 20,
+      xl: 24,
+      '2xl': 32,
+    },
     colors: {
       // Definindo as cores que o tailwind vai ter, com base no designSystem
       'gray-900': '#121214',
