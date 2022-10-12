@@ -5,7 +5,12 @@ module.exports = {
     './src/**/*.tsx',
   ],
   theme: {
-    extend: {},
+    extend: {
+      // Definindo a fonte "padrão"
+      fontFamily: {
+        sans: 'Inter, sans-serif'
+      },
+    },
   },
   plugins: [],
 }
